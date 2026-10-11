@@ -46,3 +46,14 @@ docs/report/qa_*
 # OS files
 .DS_Store
 Thumbs.db
+
+# Course-only material retained locally but excluded from public snapshots
+DEVELOPMENT_PLAN.md
+deliverables/
+docs/PROJECT_BLUEPRINT.md
+docs/delivery/
+docs/report/
+docs/diagrams/deployment-topology.*
+tools/
+scripts/
+src/
