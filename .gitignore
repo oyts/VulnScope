@@ -1,0 +1,48 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Java / Maven
+**/target/
+*.log
+
+# Node
+**/node_modules/
+**/dist/
+
+# Python
+**/__pycache__/
+**/.venv/
+**/*.pyc
+
+# Runtime configuration and secrets
+.env
+.env.*
+!.env.example
+**/application-local.yml
+**/application-prod.yml
+
+# Large/raw datasets and generated outputs
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+deliverables/generated/*
+!deliverables/generated/.gitkeep
+deliverables/final/*.docx
+deliverables/final/*.pdf
+deliverables/final/*.pptx
+deliverables/submission/
+.chart-data-*/
+
+# Local report rendering and recording artifacts
+docs/report/backup/
+docs/report/extracted_*/
+docs/report/figures/
+docs/report/qa_*
+*.mp4
+
+# OS files
+.DS_Store
+Thumbs.db
